@@ -1,0 +1,18 @@
+#board {
+  width: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.square {
+  flex: 0 0 30%;
+  margin-bottom: 5px;
+  border: 2px solid #999;
+  width: 70px;
+  height: 70px;
+
+  font-family: "Century Gothic", Futura, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
